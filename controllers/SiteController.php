@@ -53,7 +53,7 @@ class SiteController extends Controller
     }
     public function actionSay($target = "World")
     {
-        return $this->render('say',['targer'=> $target]);
+        return $this->render('say',['target'=> $target]);
     }
 
     public function actionLogin()
